@@ -1,0 +1,90 @@
+.navbar {
+    background-color:#268263;
+}
+
+body {
+    background-color: #3E6363;
+    background-repeat: repeat-y;
+}
+.icon {
+    height: 45px;
+    padding:10px;
+}
+
+footer {
+    position:fixed;
+    background-color: #e1e8e3;
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    bottom:0px;
+    margin: 20px 0px 0px 0px;
+    text-align: center
+  }
+
+a {
+    color:white;
+}
+
+#headshot {
+    border-radius:50%;
+    float:left;
+}
+
+#bio {
+    display:inline-block;
+    margin-left:3%;
+    margin-top:2%;
+    background-color:#eee;
+    color:black;
+    border-radius:1%;
+    opacity:0.8;
+    margin-top:0;
+}
+
+.jumbotron {
+    background-image:url("./Images/body-image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:1000px;
+}
+
+footer {
+    height:4%;
+}
+
+.display-4 {
+    margin-left:1%;
+}
+
+.lead {
+    margin-left:1%;
+}
+
+.row {
+    margin-right:0;
+}
+
+/* form stuff*/
+#contact-form {
+    margin-left:43%;
+    height:375px;
+    color:#eee;
+}
+
+textarea {
+    margin-right:7%;
+    border-radius:2%
+}
+
+#form-message {
+    margin-left:7%
+}
+
+.button-wrap {
+    margin-left:32%;
+}
+
+#submit {
+    border-radius:15%;
+}
