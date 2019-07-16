@@ -6,6 +6,7 @@ body {
     background-color: #3E6363;
     background-repeat: repeat-y;
 }
+
 .icon {
     height: 45px;
     padding:10px;
@@ -90,7 +91,35 @@ textarea {
 }
 
 /*Portfolio*/
-#portfolio-container {
-    margin-top:10%;
-    margin-left:25%;
+#portfolio-container p {
+    font-size:8;
+    color:black;
+}
+
+#portfolio-container .card {
+    opacity:0.8;
+}
+
+#portfolio-container  a{
+    color:blue;
+}
+
+#accordion {
+    display:inline-block;
+}
+
+.card-deck {
+    margin-right:0;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.card {
+    display:inline-block;
+    opacity:0.8;
+}
+
+iframe {
+    border-bottom:solid;
+    border-color:black;
 }
