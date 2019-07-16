@@ -88,3 +88,9 @@ textarea {
 #submit {
     border-radius:15%;
 }
+
+/*Portfolio*/
+#portfolio-container {
+    margin-top:10%;
+    margin-left:25%;
+}
