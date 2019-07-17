@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #3E6363;
+    background-color: #DEEAEA;
     background-repeat: repeat-y;
 }
 
@@ -43,11 +43,11 @@ a {
     margin-top:0;
 }
 
-.jumbotron {
+#homepage-jumbo {
     background-image:url("./Images/body-image.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height:1000px;
+    height:750px;
 }
 
 footer {
@@ -122,4 +122,11 @@ textarea {
 iframe {
     border-bottom:solid;
     border-color:black;
+}
+
+#portfolio-jumbo {
+    background-image:url("./Images/portfolio-pic.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:750px;
 }
