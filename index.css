@@ -3,9 +3,9 @@
 }
 
 body {
-    background-image:url("./Images/portfolio-pic.jpg");
+    /* background-image:url("./Images/portfolio-pic.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     font-family: 'Source Serif Pro', serif;
 }
 
@@ -31,13 +31,13 @@ a {
 
 #headshot {
     border-radius:50%;
-    float:left;
+    margin-left:40%;
 }
 
 #description {
     display:inline-block;
     margin-left:3%;
-    margin-top:2%;
+    margin-top:1%;
     background-color:#eee;
     color:black;
     border-radius:1%;
