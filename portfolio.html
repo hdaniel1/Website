@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dan Hallada</title>
+    <title>Portfolio</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="index.css" />
   </head>
@@ -37,18 +38,23 @@
                 </div>
         </nav>
         <div class="jumbotron" id="portfolio-jumbo">
-            <div class="container">
+            <div id="description" class="container" id="portfolio-container">
                 <h1 class="display-3">Portfolio</h1>
-                <p>Check out some of the projects that I've worked on!</p>
+                    <p class="lead my-3">Before attending FlatIron, I worked with technologies like SQL, SSMS, CSS, and HTML. FlatIron further enhanced my knowledge by introducing me to Object-Oriented Programming, RESTful API principles, and various other tools like React.js for creating powerful and dynamic front-ends and Redux for managing the flow of data. 
+                    <br/><br/>I've worked with a number of languages / technologies, including React.js, Ruby on Rails, and Semantic UI React. I'm always learning something new, so expect this list to grow overtime, along with my portfolio. 
+                    <br/><br/>Check out some of my projects below.</p>
             </div>
         </div>
-
+        <div class="container" id="project-container">
+        <h2>Full-Stack Development (Ruby on Rails, Javascript, React.js):</h2>
         <div class="card-deck">
                 <div class="card">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/dDKCkAlhjts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Audiotecha <img class="icon" src="https://image.flaticon.com/icons/png/512/27/27130.png"></h5>
-                        <p class="card-text">User your spotify account to manage a backlog of albums you'd like to listen to. Listen to albums, create playlists, see stats, but keep in mind an album can only be listened to once!</p>
+                        <h5 class="card-title"><u>Audiotecha</u><img class="icon" src="https://image.flaticon.com/icons/png/512/27/27130.png"></h5>
+                        <p class="card-text">Integrate with your Spotify account to manage a backlog of albums you'd like to listen to. Listen to albums, create playlists, see stats, but keep in mind an album can only be listened to once!</p>
+                        <p><a class="app-link" href="https://audiotecha-frontend.herokuapp.com/"><b>Try it!</b></a></p>
+                        <h6><i>Ruby on Rails, React.js, Redux, CSS, HTML, Semantic UI, Chart.js</i></h6>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted"><a href="https://github.com/hdaniel1/Audiotheca-Frontend" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
@@ -57,8 +63,9 @@
                 <div class="card">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/FtFIG0QTF98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Pokemon Safari <img class="icon" src="https://image.flaticon.com/icons/png/512/868/868596.png"></h5>
+                        <h5 class="card-title"><u>Pokemon Safari</u><img class="icon" src="https://image.flaticon.com/icons/png/512/868/868596.png"></h5>
                         <p class="card-text">Using data seeded from the PokeApi, trainers can hunt for and catch various Pokemon across a multitude of environments, all while enjoying classic tunes from the franchise.</p>
+                        <h6><i>Ruby on Rails, Javascript, CSS, HTML</i>L</h6>
                     </div>
                     <div class="card-footer">
                             <small class="text-muted"><a href="https://github.com/hdaniel1/pokemon-safari-frontend" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
@@ -67,14 +74,40 @@
                 <div class="card">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/cg5CkVbS8mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Taplist <img class="icon" src="https://cdn4.iconfinder.com/data/icons/drink-1-8/48/23-512.png"></h5>                      
+                        <h5 class="card-title"><u>Taplist</u><img class="icon" src="https://cdn4.iconfinder.com/data/icons/drink-1-8/48/23-512.png"></h5>                      
                         <p class="card-text">Browse through a selection of beers, breweries, and retailers. Keep track of favorites, write reviews, and add various beer-oriented tags.</p>
+                        <h6><i>Ruby on Rails, CSS, HTML</i></h6>
                     </div>
                     <div class="card-footer">
                         <a href="https://github.com/hdaniel1/Tap_List" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a>
                     </div>
             </div>
         </div>
+        <h2>Other:</h2>
+            <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><u>This website!</u><img class="icon" src="https://image.flaticon.com/icons/png/512/93/93618.png"></h5>
+                    <p class="card-text">Using data seeded from the PokeApi, trainers can hunt for and catch various Pokemon across a multitude of environments, all while enjoying classic tunes from the franchise.</p>
+                    <h6><i>HTML, CSS, Bootstrap</i></h6>
+                </div>
+                <div class="card-footer">
+                        <small class="text-muted"><a href="https://github.com/hdaniel1/pokemon-safari-frontend" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><u>Bandcamp to Spotify Chrome Extension</u><img class="icon" src="https://cdn3.iconfinder.com/data/icons/music-and-audio-1/26/music-audio-1027-512.png"></h5>
+                    <p class="card-text">Chrome extension to quickly search for an album / artist combination from Bandcamp on Spotify.</p>
+                    <p><a class="app-link" href="https://audiotecha-frontend.herokuapp.com/"><b>Try it!</b></a></p>
+                    <h6><i>Javascript</i></h6>
+                </div>
+                <div class="card-footer">
+                        <small class="text-muted"><a href="https://chrome.google.com/webstore/detail/bandcamp-to-spotify/jidagjanelgimifhmmpocnppmodololk?utm_source=chrome-ntp-icon" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
