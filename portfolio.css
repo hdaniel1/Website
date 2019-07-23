@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color:#e9ecef;
-    font-family: 'Source Serif Pro', serif;
+    background-color:#ccc;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .icon {
@@ -27,22 +27,6 @@ a {
     color:white;
 }
 
-#headshot {
-    border-radius:50%;
-    float:left;
-}
-
-.description {
-    display:inline-block;
-    margin-left:3%;
-    margin-top:2%;
-    background-color:#eee;
-    color:black;
-    border-radius:1%;
-    opacity:0.8;
-    margin-top:0;
-}
-
 footer {
     height:4%;
 }
@@ -62,24 +46,14 @@ footer {
 .page-info {
     margin-top:5%;
     margin-left:20%;
+    color:black;
+    background-color:#eee;
+    border-radius:1%;
+    opacity:0.8;
+    padding-bottom:5px;
 }
 
 /*Portfolio*/
-#portfolio-container p {
-    color:black;
-}
-
-#portfolio-container .card {
-    opacity:0.8;
-}
-
-#portfolio-container  a{
-    color:blue;
-}
-
-#accordion {
-    display:inline-block;
-}
 
 .card-deck {
     margin-right:0;
@@ -96,10 +70,6 @@ iframe {
     border-color:black;
 }
 
-/* h2 {
-    margin-left:40%;
-} */
-
 
 .app-link {
     color:black;
@@ -113,14 +83,28 @@ iframe {
     background-image:url("./Images/portfolio-background.jpg");
     background-size:100% 100%;
     background-repeat:no-repeat;
-}
-
-#card-container {
-    height:1000px;
+    height:775px;
 }
 
 #portfolio-info {
-    margin-top:0;
+    margin-top:5%;
     margin-left:0;
     margin-right:60%;
+    background-color:#eee;
+    border-radius:1%;
+    background: rgba(204, 204, 204, 0.9);
+    padding-bottom:5px;
+}
+
+#other-container {
+    height:650px;
+    margin-left:34%;
+}
+
+#oo-title {
+    margin-left:41%;
+}
+
+#misc-title {
+    margin-left:46%;
 }

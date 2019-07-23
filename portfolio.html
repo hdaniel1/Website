@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="portfolio.css" />
   </head>
@@ -38,18 +38,19 @@
                 </div>
         </nav>
         <div class="jumbotron">
-        <div class="page-info" id="portfolio-info">
-                <div id="portfolio-description" class="col-md-6 px-0">
+        <div class="container" id="portfolio-info">
+                <div class="col-md-6 px-0">
                     <h1 class="display-4">Portfolio</h1>
                     <p class="lead my-3">
-                            <br/><br/>I've worked with a number of languages / technologies, including React.js, Ruby on Rails, and Semantic UI React. 
+                        I've worked with a number of languages / technologies, including React.js, Ruby on Rails, and Semantic UI React. 
                             <br/><br/>I'm always learning something new, so expect this list to grow overtime, along with my portfolio. Right now, I'm currently diving into Node.js, a Javascript run-time for developing server-side applications.
                             <br/><br/>Check out some of my projects below!</p>
                     <p class="lead mb-0">
                 </div>
               </div>
         </div>
-        <div id="card-container">
+        <h2 id="oo-title"><i><u>Object-Oriented & Full Stack</u></i></h2>
+        <br/>
         <div class="card-deck" id="project-container">
                 <div class="card w-50">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/dDKCkAlhjts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -68,7 +69,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><u>Pokemon Safari</u><img class="icon" src="https://image.flaticon.com/icons/png/512/868/868596.png"></h5>
                         <p class="card-text">Using data seeded from the PokeApi, trainers can hunt for and catch various Pokemon across a multitude of environments, all while enjoying classic tunes from the franchise.</p>
-                        <h6><i>Ruby on Rails, Javascript, CSS, HTML</i>L</h6>
+                        <h6><i>Ruby on Rails, Javascript, CSS, HTML</i></h6>
                     </div>
                     <div class="card-footer">
                             <small class="text-muted"><a href="https://github.com/hdaniel1/pokemon-safari-frontend" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
@@ -86,8 +87,11 @@
                     </div>
                 </div>
             </div>
-            <div class="card-deck">
-                <div class="card">
+            <br/>
+            <h2 id="misc-title"><i><u>Miscellaneous</u></i></h2>
+            <br/>
+            <div id="other-container">
+                <div class="card w-50">
                     <div class="card-body">
                         <h5 class="card-title"><u>This website!</u><img class="icon" src="https://image.flaticon.com/icons/png/512/93/93618.png"></h5>
                         <p class="card-text">Using data seeded from the PokeApi, trainers can hunt for and catch various Pokemon across a multitude of environments, all while enjoying classic tunes from the franchise.</p>
@@ -97,7 +101,8 @@
                             <small class="text-muted"><a href="https://github.com/hdaniel1/pokemon-safari-frontend" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
                     </div>
                 </div>
-                <div class="card">
+                <br/>
+                <div class="card w-50">
                     <div class="card-body">
                         <h5 class="card-title"><u>Bandcamp to Spotify Chrome Extension</u><img class="icon" src="https://cdn3.iconfinder.com/data/icons/music-and-audio-1/26/music-audio-1027-512.png"></h5>
                         <p class="card-text">Chrome extension to quickly search for an album / artist combination from Bandcamp on Spotify.</p>
@@ -108,8 +113,7 @@
                             <small class="text-muted"><a href="https://github.com/hdaniel1/Bandcamp-Spotify" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></small>
                     </div>
                 </div>
-        </div>
-    </div>
+            </div>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

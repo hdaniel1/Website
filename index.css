@@ -6,7 +6,9 @@ body {
     /* background-image:url("./Images/portfolio-pic.jpg");
     background-size: cover;
     background-repeat: no-repeat; */
-    font-family: 'Source Serif Pro', serif;
+    background-color:#ccc;
+    font-family: 'Didact Gothic', sans-serif;
+
 }
 
 .icon {
@@ -31,25 +33,23 @@ a {
 
 #headshot {
     border-radius:50%;
-    margin-left:40%;
+    margin: auto;
 }
 
 #description {
-    display:inline-block;
-    margin-left:3%;
-    margin-top:1%;
     background-color:#eee;
     color:black;
     border-radius:1%;
-    opacity:0.8;
-    margin-top:0;
+    background: rgba(204, 204, 204, 0.9);
+    padding-bottom:5px;
+    margin-top:1%;
 }
 
 .jumbotron {
     background-image:url("./Images/portfolio-pic.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    height:60%;
 }
 
 footer {
@@ -75,9 +75,9 @@ footer {
 
 /* form stuff*/
 #contact-form {
-    margin-left:30%;
+    margin-left:40%;
     height:375px;
-    color:#eee;
+    color:black;
 }
 
 textarea {
@@ -86,11 +86,11 @@ textarea {
 }
 
 #form-message {
-    margin-left:7%
+    margin-left:3%
 }
 
 .button-wrap {
-    margin-left:32%;
+    margin-left:35%;
 }
 
 #submit {
